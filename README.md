@@ -11,7 +11,7 @@ Create random password generator that meets certain criteria in order to provide
 ![alt text](Develop/Images/screenshot.png)
 
 ## Deployed Page
-file:///Users/chindatrate/randompasswordgenerator/Develop/index.html
+https://chindatrate.github.io/randompasswordgenerator/
 
 ## GitHub Repository
 https://github.com/chindatrate/randompasswordgenerator
