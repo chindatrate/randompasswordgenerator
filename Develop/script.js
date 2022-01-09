@@ -26,6 +26,20 @@ let pwLength = prompt (
   "Please select the length of your password. (Between 8-24 characters)"
 );
 
+if (pwLength >= 8 && pwLength <= 24) {
+  password.length = pwLength;
+} else {
+  alert("Please select a password between 8-24 characters");
+}
+
+// Confirm to include lowercase letters
+var isLowerCase = confirm("Click OK to include lowercase letters");
+// Confirm to include uppercase letters
+var isUpperCase = confirm("Click OK to include uppercase letters");
+// Confirm to include numbers
+var isNumeric = confirm("Click OK to include numbers");
+// Confirm to include special characters
+var hasSpecialChars = confirm("Click OK to include special characters");
 }
 
 
